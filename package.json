@@ -1,0 +1,13 @@
+{
+  "name": "templedger",
+  "version": "0.1.0",
+  "description": "HACCP cold-chain audit CLI with hash ledger",
+  "type": "module",
+  "bin": { "templedger": "./bin/templedger.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
